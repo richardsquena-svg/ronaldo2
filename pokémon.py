@@ -15,4 +15,16 @@ class pokemon:
       print("vida de", inimigo.nome, ":", inimigo.vida)
       print()
       pikachu=pokemon("pikachu", 100, 30)
-      charmander
+      charmander=pokemon("charmander", 110, 25)
+      #batalha
+      while pikachu.vida > 0 and charmandder.vida > 0:
+        pikachu.atacar(charmander)
+        if charmander.vida <= 0:
+          print("charmander foi derrotado!")
+          print("pikachu venceu!")
+          break
+          charmander.atacar(pikachu)
+          if pikachu.vida <= 0:
+            print("pikachu foi derrotado!")
+            print("charmander venceu!")
+            break
