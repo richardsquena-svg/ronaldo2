@@ -1,0 +1,27 @@
+TABELA_VANTAGNS = {
+  "fogo":"planta",
+  "planta":"agua",
+  "agua":"fogo",
+}
+
+
+
+#criar classe pokemon
+class pokemon:
+    def init (self, nome, vida_max, ataque, defesa, tipo):
+        self.nome = nome
+        self.vida_max = vida_max
+        self.ataque = ataque
+        self.defesa = defesa
+        self.tipo = tipo
+        self.golpe = []
+
+#método sem retorno
+def mostrar_status(self):
+    print(f"{self.nome} => HP:{self.vida_max}")
+
+
+#criar ou instanciar classe
+pokemon = pokemon("Charizard",100,15,20,"fogo")
+
+pokemon mostrar_status
