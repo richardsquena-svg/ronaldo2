@@ -1,5 +1,6 @@
 class Conta:
-  def init (self,saldo,sacar,depositar):
+  def init (self,saldo,titulo,senha):
   self.saldo=saldo
-  self.sacar=sacar
-  self.depositar=depositar
+  self.titulo=titulo
+  self.senha=senha
+Richard=conta
